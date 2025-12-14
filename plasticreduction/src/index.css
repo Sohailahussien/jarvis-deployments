@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  @apply bg-gray-900 text-white min-h-screen;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode Styles */
+.light-mode body,
+.light-mode {
+  background-color: #f3f4f6 !important;
+  color: #111827 !important;
+}
+
+.light-mode .min-h-screen.bg-gray-900,
+.light-mode .bg-gray-900 {
+  background-color: #f3f4f6 !important;
+}
+
+.light-mode .bg-gray-800 {
+  background-color: #ffffff !important;
+}
+
+.light-mode .bg-gray-800\/80 {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.light-mode .bg-gray-800\/50 {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.light-mode .bg-gray-700 {
+  background-color: #e5e7eb !important;
+}
+
+.light-mode .bg-gray-700\/50 {
+  background-color: rgba(229, 231, 235, 0.5) !important;
+}
+
+.light-mode .bg-gray-900\/50 {
+  background-color: rgba(249, 250, 251, 0.8) !important;
+}
+
+.light-mode .border-gray-700 {
+  border-color: #e5e7eb !important;
+}
+
+.light-mode .border-gray-700\/50 {
+  border-color: rgba(229, 231, 235, 0.5) !important;
+}
+
+.light-mode .text-white {
+  color: #111827 !important;
+}
+
+.light-mode .text-gray-400 {
+  color: #4b5563 !important;
+}
+
+.light-mode .text-gray-500 {
+  color: #6b7280 !important;
+}
+
+.light-mode .hover\:bg-gray-700:hover {
+  background-color: #e5e7eb !important;
+}
+
+.light-mode .hover\:bg-gray-800:hover {
+  background-color: #f9fafb !important;
+}
+
+.light-mode header {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-color: #e5e7eb !important;
+}
+
+.light-mode select {
+  background-color: #ffffff !important;
+  border-color: #d1d5db !important;
+  color: #111827 !important;
+}
+
+.light-mode input {
+  background-color: #ffffff !important;
+  border-color: #d1d5db !important;
+  color: #111827 !important;
+}
+
+.light-mode input::placeholder {
+  color: #9ca3af !important;
+}
+
+/* Chart colors in light mode */
+.light-mode .recharts-text {
+  fill: #374151 !important;
+}
+
+.light-mode .recharts-cartesian-grid-horizontal line,
+.light-mode .recharts-cartesian-grid-vertical line {
+  stroke: #e5e7eb !important;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  @apply bg-gray-800 rounded;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  @apply bg-gray-600 rounded hover:bg-gray-500;
+}
