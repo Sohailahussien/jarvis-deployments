@@ -7,10 +7,19 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    minify: 'terser'
+    minify: 'esbuild',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          animations: ['framer-motion'],
+        }
+      }
+    }
   },
   server: {
     port: 3000,
-    host: true
+    host: true,
+      allowedHosts: true
   }
 })
