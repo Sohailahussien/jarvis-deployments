@@ -67,12 +67,11 @@ export default function Navbar() {
               whileHover={{ scale: 1.02 }}
             >
               <img
-                src="./logo.png"
+                src="/logo.png"
                 alt="SureBeam Middle East"
-                className="h-20 w-auto object-contain"
+                className="h-24 w-auto object-contain"
                 style={{
-                  background: 'transparent',
-                  filter: 'drop-shadow(0 0 1px white) drop-shadow(0 0 3px rgba(255,255,255,0.6))'
+                  filter: 'drop-shadow(0 0 3px rgba(255,255,255,1)) drop-shadow(0 0 6px rgba(255,255,255,0.9)) drop-shadow(0 0 12px rgba(255,255,255,0.6))'
                 }}
               />
             </motion.a>
