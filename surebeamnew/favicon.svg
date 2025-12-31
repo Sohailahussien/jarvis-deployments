@@ -1,1 +1,15 @@
-__BINARY_FILE__:PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmVhbSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDk5ZTY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzIyYzU1ZTtzdG9wLW9wYWNpdHk6MSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjQ1IiBmaWxsPSIjMGYxNzJhIi8+CiAgPHBhdGggZD0iTTI1IDUwIEw3NSA1MCIgc3Ryb2tlPSJ1cmwoI2JlYW0pIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2UtZGFzaGFycmF5IiB2YWx1ZXM9IjAgMTAwOzUwIDUwOzAgMTAwIiBkdXI9IjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPgogIDwvcGF0aD4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI4IiBmaWxsPSJ1cmwoI2JlYW0pIi8+CiAgPGNpcmNsZSBjeD0iMjUiIGN5PSI1MCIgcj0iNSIgZmlsbD0iIzAwOTllNiIvPgogIDxjaXJjbGUgY3g9Ijc1IiBjeT0iNTAiIHI9IjUiIGZpbGw9IiMyMmM1NWUiLz4KPC9zdmc+Cg==
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0099e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="#0f172a"/>
+  <path d="M25 50 L75 50" stroke="url(#beam)" stroke-width="4" stroke-linecap="round">
+    <animate attributeName="stroke-dasharray" values="0 100;50 50;0 100" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="50" cy="50" r="8" fill="url(#beam)"/>
+  <circle cx="25" cy="50" r="5" fill="#0099e6"/>
+  <circle cx="75" cy="50" r="5" fill="#22c55e"/>
+</svg>
